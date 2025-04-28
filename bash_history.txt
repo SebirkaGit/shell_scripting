@@ -1,0 +1,11 @@
+    1  touch rx_poc.log
+    2  header=(echo -e "year\tmonth\tday\tobx_temp\tfc_temp")
+    3  echo $header>rx_poc.log
+    4  touch rx_poc.sh
+    5  echo "#! /bin/bash">>rx_poc.sh
+    6  ls -l rx_poc.sh 
+    7  chmod u+x rx_poc.sh 
+    8  ls -l rx_poc.sh 
+    9  crontab -e
+   10  history
+   11  history>bash_history.txt
